@@ -6,6 +6,15 @@ npm installをすればnode_modulesはいらないはずですが一応いれて
 xampp環境を用意して
 jikkyou_kakko_kari.sqlをphpmyadminで実行する
 
+# テストユーザー
+・testさん
+Eメール test@example.com
+パスワード test
+
+・テストさん
+Eメール test2@example.com
+パスワード test
+
 # 機能
 ユーザー登録・ログイン
 
