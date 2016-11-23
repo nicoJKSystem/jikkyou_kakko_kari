@@ -1,0 +1,27 @@
+{
+  "name": "node-test",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "aa": "^0.1.40",
+    "body-parser": "~1.15.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "ejs": "~2.5.2",
+    "express": "~4.14.0",
+    "express-session": "^1.14.2",
+    "moment": "^2.16.0",
+    "morgan": "~1.7.0",
+    "mysql": "^2.12.0",
+    "request": "^2.78.0",
+    "serve-favicon": "~2.3.0",
+    "socket.io": "^1.5.1"
+  },
+  "devDependencies": {
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0"
+  }
+}

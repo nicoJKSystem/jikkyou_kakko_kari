@@ -1,0 +1,15 @@
+#menuBotton{
+    /*width: 100%;*/
+    background: #272727;
+    color: #000;
+    font-size: 13px;
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "Osaka", "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
+    z-index: 9999;
+    /*visibility: hidden;*/
+}
+
+#menuBotton button #home{
+    zoom: 5;
+    width: 200px;
+    height: 200px;   
+}

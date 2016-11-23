@@ -1,0 +1,61 @@
+#globalNavi{
+    width: 100%;
+    background: #272727;
+    font-size: 13px;
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "Osaka", "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    position: fixed;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    /*visibility: hidden;*/
+}
+
+#globalNaviInner{
+    position: relative;
+    background: #272727;
+    width: 984px;
+    height: 32px;
+    margin: 0 auto;
+    zoom: 1;
+    padding: 0;
+}
+
+#globalNavi ul{
+    padding: 0;
+    list-style:none;
+}
+
+#globalNavi ul.menu1{
+    float: left; 
+}
+
+#globalNavi ul.menu2{
+    float: right; 
+}
+
+#globalNavi ul li{
+    position: relative;
+    float: left;
+    height: 20px;
+    line-height: 32px;
+}
+
+#globalNavi ul li a{
+    /*text-indent: -9999px*/
+    width: 30px;
+    color: #FFF;
+    line-height:32px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+#globalNavi ul.menu1 li a:hover{
+    background:#D2CDCD;
+}
+
+#globalNavi ul.menu2 li a:hover{
+    /*text-decoration: underline;*/
+}

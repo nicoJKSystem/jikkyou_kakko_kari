@@ -1,0 +1,113 @@
+body{
+	/*margin: 0;*/
+	/*background-color: #000;*/
+}
+
+#mainWindow {
+	width: 60%;
+	height: 50%;
+	margin: 0 auto;
+	margin-top: 100px;
+
+	position: relative;
+	/*border: 1px solid #FF0000;  */
+	/*border : 1px solid #999;*/
+	/*background-color: #DFD;*/
+	/*background-color: #0D0;*/
+	display:table;
+}
+
+#leftWindow{
+	position: absolute;
+	/*display: inline-block;*/
+	/*width: 100%;*/
+	/*display:table-cell;*/
+	/*height: 100%;*/
+	/*float: left;*/
+}
+
+
+#ui-tab{
+	position: absolute;
+	/*display:table-cell;*/
+    /*width: 40%;*/
+    /*height: 100%;*/
+}
+
+#ui-tab ul{
+    padding-top: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+}
+
+#commentView{
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+}
+
+#commentInput{
+	width: 100%;
+	height: 10%;
+	display:table;
+}
+
+#commentInput input{
+	width: 70%;
+	height: 100%;
+	border: 1px solid #000;
+
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	display:table-cell;
+}
+
+#commentInput button{
+	width: 30%;
+	height: 100%;
+	border: 1px solid #000;			
+
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	display:table-cell;
+}
+
+.wrapper{
+  	width: 100%;
+	height: 90%;
+	background-color: #000;
+}
+
+#ui-tab{
+	padding: 0px;
+}
+
+#ui-tab .tabWindowComment{
+	/*overflow: auto;*/
+	height: 80%;
+}
+
+#ui-tab .tabWindowSystem{
+    overflow: auto;
+    height: 90%;
+}
+
+.username{
+	color: #FFF;
+}
+
+.commentInput{
+	display: inline-block;
+}
+
+#fragment-comment {
+    display: block;
+    overflow: hidden;
+    /*padding-bottom: 0px;*/
+}

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<title><%= title %></title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+<link rel='stylesheet' href='/css/style.css'>
+</head>
+<body>
+<p class="main-title"><%= title %></p>
+    <h1><%= message %></h1>
+    <a href="/boards/" class="btn">一覧へもどる</a>
+    <% if (typeof user !== 'undefined') { %>
+        <span class="login-user"><%= user.user_name %>さんとしてログインしています</span>
+    <% } %>
+</div>
+</body>
+</html>

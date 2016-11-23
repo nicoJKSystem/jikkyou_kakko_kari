@@ -1,0 +1,86 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+        <!-- <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script> -->
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+
+        <link rel="stylesheet" href="/css/main.css" type="text/css" />
+        <link rel="stylesheet" href="/css/navi.css" type="text/css" />
+
+        <link rel="stylesheet" href="/css/commentWindow.css" type="text/css" />
+
+        <script type="text/javascript" src="/js/jikkyou/define.js"></script>
+        <script type="text/javascript" src="/js/jikkyou/util.js"></script>
+        <script type="text/javascript" src="/js/jikkyou/check/ng.js"></script>
+
+        <script type="text/javascript" src="/js/jikkyou/check/ng.js"></script>
+        <script type="text/javascript" src="/js/jikkyou/check/baseng.js"></script>
+        <script type="text/javascript" src="/js/jikkyou/check/official_comment_ng.js"></script>
+        <script type="text/javascript" src="/js/jikkyou/check/comment_ng.js"></script>
+        <script type="text/javascript" src="/js/jikkyou/check/user_ng.js"></script>
+
+        <script type="text/javascript" src="/js/jikkyou/CommentDraw.js"></script>
+        <script type="text/javascript" src="/js/jikkyou/jikkyou.js?channel_id=<%= channel_id %>&uniq_id=<%= uniq_id %>"></script>
+        <script type="text/javascript" src="/js/jikkyou/ui.js"></script>
+
+        <title><%= title %></title>
+
+        <script type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <div id="globalNavi">
+            <div id="globalNaviInner">
+                <ul class="menu1">
+                    <li><a href="/boards">トップページ</a></li>
+                </ul>
+
+                <ul class="menu2">
+                    <li class="username"><%= user.user_name %>さん ようこそ</li>
+                </ul>
+                </div>
+        </div>
+        <div id="mainWindow">
+            <div id="leftWindow">
+                <div class="wrapper">
+                    <canvas id="commentView"></canvas>
+                </div>
+                <div id="commentInput">
+                    <input type="text" id="comment" class="commentInput" />
+                    <button type="button" id="postButton" class="commentInput">投稿</button>
+                </div>
+            </div>
+
+            <div id="ui-tab">
+                <ul>
+                    <li><a href="#fragment-comment"><span>コメント</span></a></li>
+                    <li><a href="#fragment-system"><span>システム</span></a></li>
+                </ul>
+
+                <div id="fragment-comment" class="tabWindowComment">
+                    <table id="commentTable">
+                        <thead>
+                            <th width="10%">時刻</th>
+                            <th>コメント</th>
+                            <th width="10%">コメ番</th>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+
+                <div id="fragment-system" class="tabWindowSystem">
+
+                </div>
+            </div>
+        </div>
+
+        <div id="comment-dialog" title="NG設定">
+            <p></p>
+            <p></p>
+        </div>
+    </body>
+</html>

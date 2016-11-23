@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+
+var app = require('../app');
+var Config = require('../config');
+
+var port = Config.Server.port;
+app.set('port', port);
+var server = require('../server')(app, port);
+
+//起動時に実況用データを削除
+require('../datastore').resetSessionData();

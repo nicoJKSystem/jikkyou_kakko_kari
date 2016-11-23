@@ -1,0 +1,17 @@
+[  
+    {
+        "type": "WORD",
+        "source": "えんこう",
+        "is_regex": "false"
+    },
+    {
+        "type": "WORD",
+        "source": "うんこ",
+        "is_regex": "false"
+    },
+    {
+        "type": "WORD",
+        "source": "エッチ",
+        "is_regex": "false"
+    }
+]
