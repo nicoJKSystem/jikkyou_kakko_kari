@@ -3,6 +3,9 @@
 
 npm installをすればnode_modulesはいらないはずですが一応いれておきます。
 
+xampp環境を用意して
+jikkyou_kakko_kari.sqlをphpmyadminで実行する
+
 # 機能
 ユーザー登録・ログイン
 

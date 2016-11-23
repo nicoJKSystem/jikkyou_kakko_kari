@@ -14,7 +14,7 @@ var Config = {
 		port : 3306,
 		user: 'root',
 		password: '',
-		database: 'bulletin_board'
+		database: 'jikkyou_kakko_kari'
 	}
 }
 
